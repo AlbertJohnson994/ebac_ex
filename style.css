@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: grey;
+    padding: 16px 0;
+    color: #f5f6f5;
+}
+
+header .container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+
+}
+
+header li a {
+    color: #f5f6f5;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles {
+    display: flex;
+    text-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify, center;
+
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+   
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+   margin-bottom: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8%;
+    margin-bottom: 16px;
+}
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articles article a:hover {
+    text-decoration: underline;
+
+}
+
+.articles article p {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.articles article a {
+    font-size: 24px;
+
+}
+section h2  {
+   font-size: 32px;
+ }
+ 
+ #Sports {
+    background-color: rgba(0, 255, 0, 0.1);
+ }
+
+ #Sports .articles article a {
+    background-color: #009432;
+    color: #000;
+ }
+
+ #Economy {
+    background-color: rgba(82, 32, 72, 0.884);
+ }
+
+ #Economy .articles article a {
+    background-color: burlywood;
+    color: #000;
+ }
+
+ #Entertainment {
+    background-color: rgba(226, 234, 4, 0.948);
+ }
+
+ #Entertainment .articles article a {
+    background-color: yellowgreen;
+    color: #000;
+ }
+
+ #Technology {
+    background-color: rgba(8, 136, 104, 0.958);
+ }
+
+ #Technology .articles article a {
+    background-color: orangered;
+    color: #000;
+ }
+
+
+
+
+
+
+
+
+/*
+h1 {
+    color: red;
+    font-family: sans-serif;
+    
+}
+sections id
+#Sports h2 {
+    color: blue;
+}
+
+#Economy h2 {
+    color: green;
+}
+
+#Entertainment h2 {
+    color: purple;
+}
+
+#Technology h2 {
+    color: brown;
+}
+
+/*formatando classes*/
+/*
+body .create_date {
+    color: lightcoral; 
+    font-size: medium;
+    font-style: italic;
+}*/
